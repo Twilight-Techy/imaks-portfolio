@@ -1,0 +1,105 @@
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 0.1rem 2.6vw;
+    justify-content: space-between;
+    z-index: 999;
+    background-color: #000;
+  }
+  
+  .logo:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+  }
+  
+  .nav_container{
+    z-index: 999;
+    display: block;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    /* background: url('../src/assets/Images/animatedbackground.svg');
+     */
+    width: 100%;
+    position: fixed;
+    max-width: 100vw;
+  }
+
+
+  .nav_list_container{
+    list-style-type: none;
+    height: fit-content;
+    overflow-x: hidden;
+  }
+  
+  .nav_list_container li{
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--theme-blue);
+  }
+  
+  .nav_container a{
+    width: 100vw;
+  }
+  
+  .nav_list_container a:hover{
+    transition-duration: 1s;
+     color: var(--theme-blue);
+  
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+    width: 36px;
+    cursor: pointer;
+    transform: rotate(3.142rad);
+    z-index: unset;
+  }
+  
+  .hamburger:hover > .line{
+    width: 36px;
+    transition-duration: 0.8s;
+    background-color: var(--theme-blue);
+  }
+  
+  .first {
+    width :100%;
+  }
+  
+  .second {
+    width: 60%;
+  }
+  
+  .third {
+    width: 40%;
+  }
+  
+  .cross-first{
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.2rem;
+    left: 0.4rem;
+  }
+  
+  .cross-second{
+    transform: rotate(135deg);
+    position: relative;
+    bottom: 1rem;
+    left: 0.5rem;
+  }
+  
+  .line {
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  .nav-btn{
+    margin: auto 0;
+  }

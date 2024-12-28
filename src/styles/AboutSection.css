@@ -1,0 +1,56 @@
+
+#about {
+    /* margin-bottom: 3rem; */
+    margin: 0 6vw;
+  }
+  
+  #about h2 {
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 1.2rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98%;
+  }
+  
+  .info-text > p {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+  }
+  
+  #about h3 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 1.8rem;
+  }
+  
+  .info-img-div {
+    padding: 1rem;
+    justify-content: center;
+  }
+.text-sphere{
+  display: flex;
+  justify-content: center;
+  
+}
+
+  
+.tagcloud{
+  font-size: 1.2rem;
+  background: rgba(49, 48, 48, 0.241);
+  border-radius: 50%;
+}
+
+
+.text-sphere2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+  
